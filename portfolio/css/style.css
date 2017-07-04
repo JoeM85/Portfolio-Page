@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-size: 90%;
+}
+
+h1 {
+    font-size: 250%; 
+    color: #374a86;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.main-img {
+    background-image: url(../imgs/computer-coffee.jpg);
+    background-size: cover;  
+    background-position: center;
+    height: 400px;  
+    margin-bottom: 5%;
+}
+
+.projects-container {
+    margin-bottom: 4%;
+}
+
+.hr-style {
+    height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.project-img:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.icon {
+    margin-top: 3%;
+    padding-left: 3%;
+    color: #dbba60;
+}
+
+.featured-title {
+    color: #374a86;
+    text-transform: uppercase;
+}
+
+.img-responsive {
+    margin: 0 auto;        
+       
+}  
+  
+.job-title {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+
+/*------------Modal-------------*/
+
+.modal-title {
+    color: #374a86;
+}
+
+.modal-footer {
+    border-top: 1px solid #374a86;
+    background-color: #f4f4f4;
+}
+
+.modal-header {
+    border-bottom: 1px solid #374a86;
+    background-color: #f4f4f4;
+}
+
+.btn {
+    background-color: #374a86;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #5164A0;
+    color: white;
+}
+
+.modal-text {
+    margin-top: 5%;
+}
+
+
+/*---------Media Query----------*/
+
+@media only screen and (max-width: 768px) {
+    
+    .icon { 
+        text-align: center;
+        font-size: 9px;
+    }
+     
+    .job-title {
+        font-size: 100%;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 190%;
+        text-align: center;
+    }
+    
+    .featured-title {
+        font-size: 300%;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 75%;
+    
+    }
+   
+    .main-img { 
+        height: 250px;
+    }
+    
+    .project-img { 
+        width: 60%;
+    }
+
+    .project-img:hover {
+        -webkit-transform: 1;
+        transform: scale(1.00);
+        cursor: default;
+    }
+    
+    .btn-info {
+        background-color: #374a86;
+        color: white; 
+        margin-bottom: 40px;
+    }
+    
+    .collapse {
+        font-size: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
